@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="20dp"
+        android:paddingBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_gravity="center">
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:background="@drawable/wall">
+
+        </ImageView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/nummber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30dp"
+                android:text="9,562"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="italic"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nummber"
+                android:layout_alignParentRight="true"
+                android:text="JOINED"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                android:textStyle="italic"></TextView>
+
+            <TextView
+                android:id="@+id/cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/bad_script"
+                android:text="Caterory"
+                android:textColor="@color/white">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/sprtual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cat"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/acme"
+                android:text="SPRITUAL EMPOWERMENT"
+                android:textColor="@color/white">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_below="@id/sprtual"
+                android:layout_marginTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/watch_icon1">
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/spr"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/cat"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="3dp"
+                    android:fontFamily="@font/acme"
+                    android:text="05:00 AM | 7 DEC 2017"
+                    android:textColor="@color/white"
+                    android:textStyle="italic">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/joined"
+                android:background="@drawable/on_button"
+                android:text="JOINED"
+                android:textSize="10dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_below="@+id/l1"
+                android:layout_marginTop="15dp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/delay"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/off_button"
+                android:text="DO KARMA"
+                android:textSize="10dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+
+                android:layout_below="@+id/l1"
+                android:layout_marginTop="15dp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.cardview.widget.CardView>

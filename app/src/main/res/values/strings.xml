@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Intern</string>
+    <string name="karma"><u>K A R M A</u></string>
+    <string name="sign">Not a Member?<u><font color="#FF8500">Click Here</font></u></string>
+</resources>
